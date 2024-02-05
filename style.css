@@ -83,7 +83,25 @@ h2 {
   width: 260px;
   border-radius: 15%;
 }
+/* Pikachu */
 
+.pikachu {
+  width: 150px; /* Ajustez la taille selon vos préférences */
+  height: 150px;
+  background: url('images/pikachu-pokemon.gif') no-repeat center center/contain; /* Remplacez 'chemin/vers/votre/image-de-pikachu.png' par le chemin de votre image Pikachu */
+  position: absolute;
+  left: 45%;
+  animation: fallAnimation 5s linear infinite; /* Ajustez la durée selon vos préférences */
+}
+
+@keyframes fallAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(calc(100vh - 50px)); /* Ajustez la valeur selon la taille de votre Pikachu */
+  }
+}
 
 /* Responsive */
 
