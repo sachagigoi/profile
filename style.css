@@ -88,9 +88,9 @@ h2 {
 /* Responsive */
 
 @media (max-width: 720px) {
-  body {
-    font-size:20px;
-  }
+  /* body {
+    font-size:20px!important;
+  } */
   .secondary-button {
     margin: 10px 10px;
     display: block;
@@ -98,12 +98,12 @@ h2 {
 }
 
 @media (max-width: 540px) {
-  body {
-    font-size: 30px;
+  /* body {
+    font-size: 30px!important;
   }
   h2{
-    font-size: 37px;
-  }
+    font-size: 37px!important;
+  } */
   .secondary-button {
     margin: 10px 10px;
     display: block;
